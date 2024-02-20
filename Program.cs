@@ -88,9 +88,10 @@ for(int i=0; i<=100; i++)
 */
 
 
-/* RPG simulation
-int hero = 20;
-int monster = 20;
+/* RPG simulation*/
+int maxHp = 20;
+int hero = maxHp;
+int monster = maxHp;
 Random rnd = new();
 int attack;
 while(hero > 0) {
@@ -100,20 +101,20 @@ while(hero > 0) {
         Console.WriteLine($"Hero\tattacked for:\t{attack}!\t~The Monster is dead!~");
         break;
     }
-    Console.WriteLine($"Hero\tattacked for:\t{attack}!\tMonster: HP {monster}/10");
+    Console.WriteLine($"Hero\tattacked for:\t{attack}!\tMonster: HP {monster}/{maxHp}");
     attack = rnd.Next(1, 11);
     hero -= attack;
     if(hero<=0) {
         Console.WriteLine($"Monster\tattacked for:\t{attack}!\t~The Hero is dead!~");
         break;
     }
-    Console.WriteLine($"Monster\tattacked for:\t{attack}!\tHero:\t HP {hero}/10");
+    Console.WriteLine($"Monster\tattacked for:\t{attack}!\tHero:\t HP {hero}/{maxHp}");
     while(Console.ReadKey().Key != ConsoleKey.Enter);
 }
-*/
 
 
-/* Input validation*/
+
+/* Input validation
 string? input;
 int value = 0;
 Console.WriteLine("Enter an integer value between 5 and 10");
@@ -128,4 +129,44 @@ do {
         break;
     }
 } while(true);
+*/
 
+
+/* Simple calculator
+//Eingabezahlen deklarieren
+double z1 = 0;
+double z2 = 0;
+
+Console.Write("Zahl1: ");
+//Zahleneingabe, übergabe an Referenzvariable z1
+double.TryParse(Console.ReadLine(),out z1);
+//Eingabe Operator
+Console.Write("Operator: ");
+string? op = Console.ReadLine();
+
+Console.Write("Zahl2: ");
+//Zahleneingabe, übergabe an Referenzvariable z2
+double.TryParse(Console.ReadLine(),out z2);
+//Ergebnisvaraible Deklaration
+double erg = 0;
+//Auswahl Operation (+*-/)
+switch(op) {
+    case "+":
+        erg = z1+z2;
+    break;
+    case "-":
+        erg = z1-z2;
+    break;
+    case "*":
+        erg = z1*z2;
+    break;
+    case "/":
+        erg = z1/z2;
+    break;
+    default:
+        Console.WriteLine($"Unbekanntes Zeichen: {op}");
+        return;
+}
+//Ausgabe
+Console.WriteLine($"{z1} {op} {z2} = {erg}");
+*/
