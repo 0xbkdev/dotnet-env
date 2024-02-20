@@ -1,0 +1,15 @@
+/home/bk/dev-env/git-repos/dotnet-env/bin/Debug/net8.0/dotnet-env
+/home/bk/dev-env/git-repos/dotnet-env/bin/Debug/net8.0/dotnet-env.deps.json
+/home/bk/dev-env/git-repos/dotnet-env/bin/Debug/net8.0/dotnet-env.runtimeconfig.json
+/home/bk/dev-env/git-repos/dotnet-env/bin/Debug/net8.0/dotnet-env.dll
+/home/bk/dev-env/git-repos/dotnet-env/bin/Debug/net8.0/dotnet-env.pdb
+/home/bk/dev-env/git-repos/dotnet-env/obj/Debug/net8.0/dotnet-env.GeneratedMSBuildEditorConfig.editorconfig
+/home/bk/dev-env/git-repos/dotnet-env/obj/Debug/net8.0/dotnet-env.AssemblyInfoInputs.cache
+/home/bk/dev-env/git-repos/dotnet-env/obj/Debug/net8.0/dotnet-env.AssemblyInfo.cs
+/home/bk/dev-env/git-repos/dotnet-env/obj/Debug/net8.0/dotnet-env.csproj.CoreCompileInputs.cache
+/home/bk/dev-env/git-repos/dotnet-env/obj/Debug/net8.0/dotnet-env.sourcelink.json
+/home/bk/dev-env/git-repos/dotnet-env/obj/Debug/net8.0/dotnet-env.dll
+/home/bk/dev-env/git-repos/dotnet-env/obj/Debug/net8.0/refint/dotnet-env.dll
+/home/bk/dev-env/git-repos/dotnet-env/obj/Debug/net8.0/dotnet-env.pdb
+/home/bk/dev-env/git-repos/dotnet-env/obj/Debug/net8.0/dotnet-env.genruntimeconfig.cache
+/home/bk/dev-env/git-repos/dotnet-env/obj/Debug/net8.0/ref/dotnet-env.dll

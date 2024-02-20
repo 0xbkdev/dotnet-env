@@ -113,7 +113,7 @@ while(hero > 0) {
 */
 
 
-/* Input validation
+/* Input validation*/
 string? input;
 int value = 0;
 Console.WriteLine("Enter an integer value between 5 and 10");
@@ -128,4 +128,4 @@ do {
         break;
     }
 } while(true);
-*/
+
